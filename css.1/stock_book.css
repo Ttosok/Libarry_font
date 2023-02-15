@@ -1,0 +1,214 @@
+.columns{
+    padding: 0  .9375rem !important;
+    position: relative;
+    float:left;
+}
+.CoverImageContainer{
+    position: relative;
+    margin: 0;
+    padding: 0 !important;
+}
+.CoverImageContainer > a img{
+    width:100%;
+    max-width: 320px;
+    margin: 36px auto 0;
+    max-height: none;
+    display: block;
+}
+.columns-text_center{
+    margin-top: 36px;
+    width: 50%;
+}
+.Detailsidebar{
+    float: right;
+    width: 240px;
+    margin-top: 30px;
+    font-size: 10pt;
+    color: #222;
+    padding: 0 !important;
+}
+.Detailsidebar .columns{
+    width:100%;
+}
+.Detailsidebar .columns h2{
+    text-transform: uppercase!important;
+}
+.Detailsidebar .columns p{
+    margin-top: 5px;
+    font-size: 10pt;
+    line-height: 16pt;
+}
+.Detailsidebar .columns a{
+    border-width: 1px!important;
+    display: inline-block;
+    padding: 7px 15px;
+    font-size: 8pt!important;
+    margin: 0 10px 20px 0;
+    position: relative;
+    text-align: center;
+    border-radius: 25px;
+}
+.columns-text_center .text_headinfo h1{
+    display: inline-block;
+    color: #222;
+    margin-bottom: 0;
+    margin-right: 10px;
+    font-size: 22pt;
+    line-height: 34px;
+    font-family: proxima-nova,sans-serif!important;
+}
+.columns-text_center .text_headinfo p{
+    color: #222;
+    text-decoration: none;
+    font-size: 11pt;
+    font-family: proxima-nova,sans-serif!important;
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.columns-text_center .text_content{
+    margin-top: 10px;
+    overflow: hidden;
+    width: 100%;
+}
+.columns-text_center .text_content
+.content_button{
+    overflow: hidden;
+    margin-bottom: 1.25rem;
+    padding:0 !important;
+}
+.columns-text_center .text_content
+.content_button p{
+    float: left;
+    margin: 0 20px;
+}
+.columns-text_center .text_content
+.content_button .button{
+    height: 52px;
+    width: 182px;
+    padding: 1rem 0 .9rem !important;
+    line-height: 1.3rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    text-transform: uppercase!important;
+    text-align: center;
+}
+.columns-text_center .text_content
+.content_button > span a{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .3rem 0 0;
+    border: 2px solid #9e9e9e;
+    width: 182px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    margin-right: 0;
+    height: 52px;
+    color: #222;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase!important;
+    font-size: .875rem!important;
+}
+.columns-text_center .text_content
+.content_button > span a:hover{
+    background-color: #9e9e9e;
+    color:#fff;
+}
+.row .row{
+    margin: 0 -.9375rem;
+    max-width: none;
+    width: auto;
+}
+.row .row .box_slider .slider_nav_header{
+    list-style: none;
+    margin-left: 0;
+    margin-top: 6px;
+    margin-bottom: 0;
+    border-bottom: 1px solid #c8c7cc;
+}
+.row .row .box_slider .slider_nav_header li{
+    display: inline-block;
+    padding: 0 8px;
+    font-weight: 500;
+    margin-bottom: -10px;
+    border-bottom: 0;
+    border: none;
+}
+.row .row .box_slider 
+.slider_nav_header li a{
+    border: none;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 8px;
+}
+.row .row .box_content{
+    margin: 0 0;
+    padding:0 !important;
+}
+.row .row .box_content .content_chat{
+    width:100%;
+    padding: 0;
+}
+.row .row .box_content .content_chat 
+article{
+    font-size: 12pt;
+    overflow: hidden;
+    outline: 0;
+    color: #000;
+}
+.row .row .box_content .content_chat p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 1.25rem;
+    margin-top:0; 
+}
+.chat_detail__full{
+    height:100%;
+}
+.chat_detail__short{
+    max-height: 266px;
+}
+.chat_detail__short:before{
+    content: '';
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 133px;
+    background-image: linear-gradient(to bottom,rgba(250,250,250,0),#fafafa);
+    bottom: 36px;
+}
+.row .row .box_content .content_chat img{
+    margin: 0 auto;
+    margin-top: -36px;
+    z-index: 9999;
+    background: #fafafa;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.img_jump{
+    display: none;
+}
+.img_down{
+    display: block;
+}
+.row .row .box_content .content_chat hr{
+    border: solid #ddd;
+    border-width: 1px 0 0;
+    clear: both;
+    height: 0;
+    margin: 1.25rem 0 1.1875rem;
+}
+.hr-more{
+    padding: 0;
+    border: none;
+    border-top: 3px solid #ddd;
+    color: #333;
+    text-align: center;
+    cursor: pointer;
+    z-index: -1;
+    margin-top: 30px;
+}

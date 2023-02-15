@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box; 
+}
+body{
+    position: relative;
+    background:#EDEDED;
+    margin:0 auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    overflow-x: hidden;
+} 
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+article, aside, details, figcaption,
+figure, footer, header, hgroup, main,
+menu, nav, section, summary {
+    display: block;
+}
+hr {
+  box-sizing: content-box; 
+  height: 0; 
+  overflow: visible; 
+}
+html {
+  font-family: sans-serif; 
+  line-height: 1.15; 
+}
+ol,
+ul,
+dl {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+  margin-bottom: 0;
+}
+/*p:last-of-type{
+    margin: 0;
+}*/
+a {
+  color:  #0066CC;
+  text-decoration: none;
+  background-color: transparent; 
+}
